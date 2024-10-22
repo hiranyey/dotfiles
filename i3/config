@@ -23,7 +23,7 @@ font pango:Iosevka Nerd Font 12
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec_always --no-startup-id feh --bg-scale /home/hiranyey/Pictures/waifu.png
 exec --no-startup-id dex --autostart --environment i3
-exec --no-startup-id picom -b
+exec --no-startup-id picom -b --config ~/.config/picom/picom.conf
 exec_always --no-startup-id autotiling
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.

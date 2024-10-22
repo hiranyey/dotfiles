@@ -1,0 +1,7 @@
+[user]
+	email = hiranyeyg@gmail.com
+	name = Hiranyey Gajbhiye
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true

@@ -1,0 +1,7 @@
+.gitconfig|symlink|
+.zshrc|symlink|
+i3|symlink|.config
+i3blocks|symlink|.config
+kitty|symlink|.config
+picom|symlink|.config
+zed|symlink|.config
