@@ -1,0 +1,24 @@
+[current-title]
+label= 
+command=xdotool getactivewindow getwindowname
+interval=1
+
+[time]
+label= 
+command=date 
+interval=5
+
+[volume]
+label=VOL󰕾 
+command=amixer sset Master,0 $1 unmute| awk -F'[][]' '/\[on\]/ {print $2; exit}'
+interval=5
+
+[cpu_usage]
+command=/home/hiranyey/.config/i3blocks/cpu
+interval=10
+label=CPU 
+
+[memory]
+command=/home/hiranyey/.config/i3blocks/memory
+label=MEM 
+interval=10
