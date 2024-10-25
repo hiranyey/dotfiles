@@ -1,0 +1,18 @@
+- Install curl
+- Run debloat script 
+	sudo sh -c "$(curl -fsSL https://gist.githubusercontent.com/demirdegerli/b7087c84ef55a1909c21e4966659a2ba/raw/ubuntu_debloater.sh)"
+- Download iosevka nerd font
+  unzip Iosevka.zip -d ~/.fonts && fc-cache -fv
+- Install brave and sync brave
+- Setup github and git
+- Download dotfiles repo
+- Download alacritty
+- Setup zsh and starship
+- install vim,htop,neofetch,build-essential,cmake,feh
+- remove default terminal
+- install picom,autotiling,raylib,raygui from github
+- install pip,pipx,i3-swallow
+- install i3,i3blocks
+- install pavucontrol,maim,tmux,xdotool,copyq
+- Create screenshots folder in ~/Pictures
+- Install golang using https://go.dev/wiki/Ubuntu
