@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Copied from https://github.com/rexim/dotfiles/blob/master/deploy.sh
 set -e
 
 SCRIPT_DIR="$( cd "$( dirname "$BASH_SOURCE[0]" )" && pwd )"

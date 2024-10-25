@@ -189,8 +189,8 @@ bindsym $mod+F0 exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle &
 bindsym $mod+F11 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -3% && $refresh_i3status
 bindsym $mod+F12 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +3% && $refresh_i3status
 client.focused #181818 #282828 #ffffff #928327
-default_border pixel 1
-default_floating_border pixel 1
+default_border pixel 0
+default_floating_border pixel 2
 bindsym mod1+F4 exec shutthisdown --class floating
 for_window [class="floating"] floating enable
 
