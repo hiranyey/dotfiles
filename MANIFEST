@@ -1,6 +1,6 @@
 .gitconfig|symlink|
 .zshrc|symlink|
-.config|symlink|.ssh
+config|symlink|.ssh
 i3|symlink|.config
 i3blocks|symlink|.config
 kitty|symlink|.config
