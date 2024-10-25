@@ -3,5 +3,7 @@
 i3|symlink|.config
 i3blocks|symlink|.config
 kitty|symlink|.config
+alacritty|symlink|.config
 picom|symlink|.config
 zed|symlink|.config
+wallpaper.png|symlink|.config
