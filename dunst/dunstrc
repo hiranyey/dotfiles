@@ -1,0 +1,33 @@
+[global]
+    # Define the default settings for notifications
+    font = Iosevka Nerd Font 12
+    format = "%s\n%b"
+    sort = no
+    indicate_hidden = yes
+    alignment = left
+    show_age_threshold = 60
+    word_wrap = yes
+    sticky_history = yes
+    gaps = true
+    gap_size = 8
+
+[urgency_low]
+    # Gruvbox soft color scheme for low urgency notifications
+    background = "#282828"   # Dark gray
+    foreground = "#928374"   # Light gray
+    frame_color = "#458588"  # Blue
+    timeout = 10
+
+[urgency_normal]
+    # Gruvbox soft color scheme for normal urgency notifications
+    background = "#3c3836"   # Medium gray
+    foreground = "#ebdbb2"   # Light beige
+    frame_color = "#d79921"  # Yellow
+    timeout = 10
+
+[urgency_critical]
+    # Gruvbox soft color scheme for critical urgency notifications
+    background = "#cc241d"   # Red
+    foreground = "#fbf1c7"   # Light cream
+    frame_color = "#cc241d"  # Red
+    timeout = 0              # Critical notifications stay until dismissed
