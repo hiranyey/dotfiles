@@ -1,35 +1,8 @@
-- Install curl
-- Run debloat script 
-	sudo sh -c "$(curl -fsSL https://gist.githubusercontent.com/demirdegerli/b7087c84ef55a1909c21e4966659a2ba/raw/ubuntu_debloater.sh)"
-
-- Download iosevka nerd font
-  unzip Iosevka.zip -d ~/.fonts && fc-cache -fv
-
-- Install brave and sync brave
-sudo apt install curl
-
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-
-echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-
-sudo apt update
-
-sudo apt install brave-browser
-
-- Setup github and git
-- Download dotfiles repo
-- Download alacritty
-- Setup zsh and starship
-https://phoenixnap.com/kb/install-zsh-ubuntu
-https://starship.rs/guide/
-
-- install neovim,htop,neofetch,build-essential,cmake,
-- remove default terminal
+- Run script of setupUbuntu.sh
+- Add bitwarden,sponsorblock,hackernews in new tab in brave
+- Remove snap
+- Setup github
+- Setup rofi theme to gruvbox dark
+- Install picom,raylib,raygui,rofi-power-menu from github
 - Do this for gtk theme sync
 https://discourse.gnome.org/t/using-adwaita-dark-on-another-compositor/17563/10
-- install picom,autotiling,raylib,raygui,feh from github
-- install pip,pipx,i3-swallow
-- install i3,i3blocks
-- install pavucontrol,maim,tmux,xdotool,copyq
-- Create screenshots folder in ~/Pictures
-- Install golang using https://go.dev/wiki/Ubuntu
