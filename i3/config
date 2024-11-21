@@ -4,8 +4,7 @@ exec_always --no-startup-id feh --bg-scale ~/.config/wallpaper.png
 exec --no-startup-id dex --autostart --environment i3
 exec_always --no-startup-id autotiling
 exec --no-startup-id picom -b --config ~/.config/picom/picom.conf
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-exec --no-startup-id /usr/libexec/gsd-xsettings
+exec --no-startup-id xidlehook --detect-sleep --not-when-audio --not-when-fullscreen --timer 180 'xset dpms force standby' '~/.config/i3/i3lockscript.sh' --timer 182 'systemctl suspend' ''
 exec --no-startup-id nm-applet
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10%
@@ -21,6 +20,7 @@ bindsym $mod+F4 exec "rofi -show power-menu -modi power-menu:rofi-power-menu -fo
 bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+backslash exec brave-browser
 bindsym $mod+BackSpace exec code
+bindsym $mod+L exec ~/.config/i3/i3lockscript.sh
 bindsym $mod+q kill
 
 bindsym $mod+Left focus left

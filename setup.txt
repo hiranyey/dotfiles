@@ -3,6 +3,6 @@
 - Remove snap
 - Setup github
 - Setup rofi theme to gruvbox dark
-- Install picom,raylib,raygui,rofi-power-menu from github
+- Install picom,raylib,raygui,rofi-power-menu,xidlehook from git
 - Do this for gtk theme sync
 https://discourse.gnome.org/t/using-adwaita-dark-on-another-compositor/17563/10
