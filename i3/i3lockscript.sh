@@ -1,2 +1,2 @@
 #!/bin/bash
-i3lock -i /home/hiranyey/.config/lockscreen.png --ignore-empty-password --show-failed-attempts --nofork
+i3lock -i /home/hiranyey/.config/wallpaper.jpg --ignore-empty-password --show-failed-attempts --nofork
